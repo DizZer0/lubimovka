@@ -5,5 +5,5 @@
     list-style-type: none;
     grid-column-gap: 2px;
     grid-row-gap: 3px;
-    grid-template-columns: repeat(auto-fit, minmax(206px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
 }
