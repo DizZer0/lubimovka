@@ -1,0 +1,33 @@
+.nav__projects-button {
+  border: none;
+  border-right: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  outline: none;
+  background: #E5E5E5;
+  width: 115px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: 'FormularLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #242424;
+  cursor: pointer;
+  margin: 0 0 0 19px;
+  margin-right: auto;
+  transition: .3s linear;
+}
+
+.nav__projects-button:hover,
+.nav__projects-button:focus {
+  transform: scale(1.1);
+}  
+
+@media screen and (min-width:1200px) {
+  .nav__projects-button {
+    display: none;
+  }
+}
