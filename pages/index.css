@@ -1,3 +1,12 @@
 @import url(../vendor/normalize/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/description-the-play/description-the-play.css);
+
+@import url(../blocks/working-staff/working-staff.css);
+@import url(../blocks/working-staff/__age-limit/working-staff__age-limit.css);
+@import url(../blocks/working-staff/__duration/working-staff__duration.css);
+@import url(../blocks/working-staff/__list-item/working-staff__list-item.css);
+@import url(../blocks/working-staff/__list/working-staff__list.css);
+@import url(../blocks/working-staff/__name/working-staff__name.css);
+@import url(../blocks/working-staff/__post/working-staff__post.css);
