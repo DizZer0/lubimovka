@@ -1,12 +1,26 @@
 @import url(../vendor/normalize/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/preview-project/preview-project.css);
+@import url(../blocks/preview-project/__title/preview-project__title.css);
+@import url(../blocks/preview-project/__subtitle/preview-project__subtitle.css);
+@import url(../blocks/preview-project/__btn-text/preview-project__btn-text.css);
+@import url(../blocks/preview-project/__btn-union/preview-project__btn-union.css);
+@import url(../blocks/preview-project/__btn/preview-project__btn.css);
+@import url(../blocks/preview-project/__data/preview-project__data.css);
+
 @import url(../blocks/description-the-play/description-the-play.css);
 
 @import url(../blocks/working-staff/working-staff.css);
+@import url(../blocks/working-staff/__top-container/working-staff__top-container.css);
 @import url(../blocks/working-staff/__age-limit/working-staff__age-limit.css);
 @import url(../blocks/working-staff/__duration/working-staff__duration.css);
 @import url(../blocks/working-staff/__list-item/working-staff__list-item.css);
 @import url(../blocks/working-staff/__list/working-staff__list.css);
 @import url(../blocks/working-staff/__name/working-staff__name.css);
 @import url(../blocks/working-staff/__post/working-staff__post.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__title/gallery__title.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+@import url(../blocks/gallery/__items/gallery__items.css);

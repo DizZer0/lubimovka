@@ -1,10 +1,6 @@
 .working-staff {
-  font-family: 'Neue Machina', 'FormularLight', Arial, Helvetica, sans-serif;
   padding: 58px 20px 72px 27px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 414px;
-  row-gap: 20px;
+  min-width: 320px;
   background-color: #fff;
   color: #242424;
 }

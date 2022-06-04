@@ -1,0 +1,7 @@
+.gallery {
+    margin: 0 auto;
+    min-width: 320px;
+    background-color: #ECEBE8;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+}
