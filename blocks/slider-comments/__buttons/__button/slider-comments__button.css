@@ -1,0 +1,15 @@
+.slider-comments__button + .slider-comments__button {
+  margin-left: 20px;
+}
+
+.slider-comments__button:hover {
+  cursor: pointer;
+}
+
+.slider-comments__button:last-child:hover {
+  background-image: url(../../../../images/Arrow-next_hover.svg);
+}
+
+.slider-comments__button:first-child:hover {
+  background-image: url(../../../../images/Arrow-last_hover.svg);
+}

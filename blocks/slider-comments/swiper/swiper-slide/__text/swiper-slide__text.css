@@ -1,0 +1,12 @@
+.swiper-slide__text {
+  width: 360px;
+  height: 224px;
+  font-family: "Formular";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 1px;
+  color: #242424;
+  margin: 43px auto 0;
+}

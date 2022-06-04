@@ -1,68 +1,169 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- Библиотека для Слайдера в Section 5 -->
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Любимовка</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Любимовка</title>
-</head>
-
-<body>
-  <header></header>
-  <main>
-    <!-- секция 1-->
-    <section class="preview-project">
-      <h1 class="preview-project__title">С_училища</h1>
-      <h2 class="preview-project__subtitle">Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в жизни преподавателя философии.</h2>
-      <time class="preview-project__data">12 мая 20:00</time>
-      <button class="preview-project__btn">
-        <p class="preview-project__btn-text">Билеты</p>
-        <img class="preview-project__btn-union" src="./images/union-right.svg" alt="стрелка">
-      </button>
-    </section>
-    <!-- секция 2-->
-    <section></section>
-    <!-- секция 3-->
-    <section class="gallery">
-      <h2 class="gallery__title">Заголовок блока с фотографиями</h2>
-      <ul class="gallery__items">
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item1.png" alt="2 человека на сцене">
-        </li>
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item2.png" alt="Актриса">
-        </li>
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item3.png" alt="Актер">
-        </li>
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item4.png" alt="Музыкальная группа">
-        </li>
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item5.png" alt="Собрание">
-        </li>
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item6.png" alt="Девушка">
-        </li>
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item7.png" alt="Люди на репетиции">
-        </li>
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item8.png" alt="девушка">
-        </li>
-      </ul>
-    </section>
-    <!-- секция 4-->
-    <section></section>
-    <!-- секция 5-->
-    <section></section>
-    <!-- секция 6-->
-    <section></section>
-  </main>
-  <footer></footer>
-  <script type="module" src="./pages/index.js"></script>
-</body>
-
+  <body>
+    <header></header>
+    <main>
+      <!-- секция 1-->
+      <section class="preview-project">
+        <h1 class="preview-project__title">С_училища</h1>
+        <h2 class="preview-project__subtitle">
+          Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в жизни
+          преподавателя философии.
+        </h2>
+        <time class="preview-project__data">12 мая 20:00</time>
+        <button class="preview-project__btn">
+          <p class="preview-project__btn-text">Билеты</p>
+          <img
+            class="preview-project__btn-union"
+            src="./images/union-right.svg"
+            alt="стрелка"
+          />
+        </button>
+      </section>
+      <!-- секция 2-->
+      <section></section>
+      <!-- секция 3-->
+      <section class="gallery">
+        <h2 class="gallery__title">Заголовок блока с фотографиями</h2>
+        <ul class="gallery__items">
+          <li class="gallery__item">
+            <img
+              class="gallery__image"
+              src="./images/gallery__item1.png"
+              alt="2 человека на сцене"
+            />
+          </li>
+          <li class="gallery__item">
+            <img
+              class="gallery__image"
+              src="./images/gallery__item2.png"
+              alt="Актриса"
+            />
+          </li>
+          <li class="gallery__item">
+            <img
+              class="gallery__image"
+              src="./images/gallery__item3.png"
+              alt="Актер"
+            />
+          </li>
+          <li class="gallery__item">
+            <img
+              class="gallery__image"
+              src="./images/gallery__item4.png"
+              alt="Музыкальная группа"
+            />
+          </li>
+          <li class="gallery__item">
+            <img
+              class="gallery__image"
+              src="./images/gallery__item5.png"
+              alt="Собрание"
+            />
+          </li>
+          <li class="gallery__item">
+            <img
+              class="gallery__image"
+              src="./images/gallery__item6.png"
+              alt="Девушка"
+            />
+          </li>
+          <li class="gallery__item">
+            <img
+              class="gallery__image"
+              src="./images/gallery__item7.png"
+              alt="Люди на репетиции"
+            />
+          </li>
+          <li class="gallery__item">
+            <img
+              class="gallery__image"
+              src="./images/gallery__item8.png"
+              alt="девушка"
+            />
+          </li>
+        </ul>
+      </section>
+      <!-- секция 4-->
+      <section></section>
+      <!-- секция 5-->
+      <section class="slider-comments">
+        <div class="slider-comments__header">
+          <h2 class="slider-comments__title">Отзывы зрителей</h2>
+          <div class="slider-comments__buttons">
+            <img
+              class="slider-comments__button slider-comments__button_prev"
+              src="./images/Arrow-last.svg"
+              alt="Назад"
+            />
+            <img
+              class="slider-comments__button slider-comments__button_next"
+              src="./images/Arrow-next.svg"
+              alt="Вперед"
+            />
+          </div>
+        </div>
+        <div class="swiper">
+          <div class=".swiper-pagination"></div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <p class="swiper-slide__text">
+                Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или
+                про коня Боджэка возникает — я думаю, и пьеса написана с этой
+                интонацией американских взрослых мультсериалов. И как хорошо все
+                это с куклой-носочком. Так все чисто сделано!
+              </p>
+              <h3 class="swiper-slide__author">Наталья Зайцева</h3>
+            </div>
+            <div class="swiper-slide">
+              <p class="swiper-slide__text">
+                Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или
+                про коня Боджэка возникает — я думаю, и пьеса написана с этой
+                интонацией американских взрослых мультсериалов. И как хорошо все
+                это с куклой-носочком. Так все чисто сделано!
+              </p>
+              <h3 class="swiper-slide__author">Ашот</h3>
+            </div>
+            <div class="swiper-slide">
+              <p class="swiper-slide__text">
+                Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или
+                про коня Боджэка возникает — я думаю, и пьеса написана с этой
+                интонацией американских взрослых мультсериалов. И как хорошо все
+                это с куклой-носочком. Так все чисто сделано!
+              </p>
+              <h3 class="swiper-slide__author">Сергеевич</h3>
+            </div>
+            <div class="swiper-slide">
+              <p class="swiper-slide__text">
+                Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или
+                про коня Боджэка возникает — я думаю, и пьеса написана с этой
+                интонацией американских взрослых мультсериалов. И как хорошо все
+                это с куклой-носочком. Так все чисто сделано!
+              </p>
+              <h3 class="swiper-slide__author">Петрович</h3>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!-- секция 6-->
+      <section></section>
+    </main>
+    <footer></footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="./pages/index.js"></script>
+  </body>
 </html>
