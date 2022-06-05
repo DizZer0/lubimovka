@@ -1,6 +1,14 @@
 @import url(../vendor/normalize/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/preview-project/preview-project.css);
+@import url(../blocks/preview-project/__title/preview-project__title.css);
+@import url(../blocks/preview-project/__subtitle/preview-project__subtitle.css);
+@import url(../blocks/preview-project/__btn-text/preview-project__btn-text.css);
+@import url(../blocks/preview-project/__btn-union/preview-project__btn-union.css);
+@import url(../blocks/preview-project/__btn/preview-project__btn.css);
+@import url(../blocks/preview-project/__data/preview-project__data.css);
+
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__container/video__container.css);
 @import url(../blocks/video/__element/video__element.css);

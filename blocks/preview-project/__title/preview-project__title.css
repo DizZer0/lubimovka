@@ -1,0 +1,11 @@
+.preview-project__title {
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #242424;
+  padding-left: 24px;
+  padding-bottom: 16px;
+}
