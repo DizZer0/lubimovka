@@ -3,7 +3,9 @@
 
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__container/video__container.css);
-@import url(../blocks/video/__frame/video__iframe.css);
+@import url(../blocks/video/__element/video__element.css);
+@import url(../blocks/video/__play-button/video__play-button.css);
+@import url(../blocks/video/__play-button/_hide/video__play-button_hide.css);
 
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__title/gallery__title.css);
