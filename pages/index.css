@@ -1,7 +1,22 @@
 @import url(../vendor/normalize/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/body/body.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__title/gallery__title.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 @import url(../blocks/gallery/__items/gallery__items.css);
+
+@import url(../blocks/title-h6/title-h6.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/slider/__container/slider__container.css);
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__slide/slider__slide.css);
+@import url(../blocks/slider/__title-container/slider__title-container.css);
+@import url(../blocks/slider/__button-container/slider__button-container.css);
+@import url(../blocks/slider/__text/slider__text.css);
+@import url(../blocks/slider/__dots/slider__dots.css);
+@import url(../blocks/slider/__author/slider__author.css);
+@import url(../blocks/slider/__slide/slider__slide_active.css);
+@import url(../blocks/slider/__dot/slider__dot.css);
+@import url(../blocks/slider/__dot/slider__dot_active.css);

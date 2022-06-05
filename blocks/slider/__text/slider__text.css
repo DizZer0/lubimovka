@@ -1,0 +1,11 @@
+.slider__text {
+  max-height: 750px;
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  padding-left: 3px;
+  padding-right: 49px;
+}
