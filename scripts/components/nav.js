@@ -13,7 +13,7 @@ const toggleNav = () => {
 }
 
 // Remove menu on link click
-function closeNav() {
+const closeNav = () => {
   hamburgerMenu.classList.remove('active');
   document.body.classList.remove('lock');
   navList.classList.remove('nav__list_show');

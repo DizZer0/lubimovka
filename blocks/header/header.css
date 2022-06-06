@@ -1,6 +1,6 @@
 .header {
-  padding: 10px;
-  background: #E5E5E5;
+  padding: 32px 10px 10px;
+  background: #ECEBE8;
 }
 
 @media screen and (min-width: 1100px) {

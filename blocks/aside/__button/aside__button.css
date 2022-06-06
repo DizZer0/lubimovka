@@ -3,7 +3,7 @@
   border-right: 1px solid #242424;
   border-bottom: 1px solid #242424;
   outline: none;
-  background: #E5E5E5;
+  background: #ECEBE8;
   width: 115px;
   height: 32px;
   display: flex;
@@ -16,7 +16,7 @@
   text-transform: uppercase;
   color: #242424;
   cursor: pointer;
-  margin: 32px 0 0 30px;
+  margin: 32px 0 0 30px; 
   transition: .3s linear;
   position: relative;
 }
