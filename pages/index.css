@@ -8,6 +8,8 @@
 @import url(../blocks/preview-project/__btn-union/preview-project__btn-union.css);
 @import url(../blocks/preview-project/__btn/preview-project__btn.css);
 @import url(../blocks/preview-project/__data/preview-project__data.css);
+@import url(../blocks/preview-project/__pic/preview-project__pic.css);
+@import url(../blocks/preview-project/__pic-text/preview-project__pic-text.css);
 
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__title/gallery__title.css);
