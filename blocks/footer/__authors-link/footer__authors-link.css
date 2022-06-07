@@ -1,16 +1,15 @@
-.footer__policy {
+.footer__authors-link {
   color: #242424;
   font-family: 'FormularLight';
   font-size: 14px;
   line-height: 1.21;
   font-weight: 300;
-  margin-bottom: 59px;
 }
 
-.footer__policy:link {
+.footer__authors-link:link {
   text-decoration: underline;
 }
 
-.footer__policy:hover {
+.footer__authors-link:hover {
   text-decoration: none;
 }

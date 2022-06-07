@@ -2,4 +2,6 @@
   background-image: url(../../../images/footer__logo-shishki.svg);
   width: 27px;
   height: 25px;
+  display: inline-block;
+  margin-right: 9px;
 }

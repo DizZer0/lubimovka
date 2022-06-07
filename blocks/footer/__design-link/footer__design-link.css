@@ -1,16 +1,16 @@
-.footer__policy {
+.footer__design-link {
   color: #242424;
   font-family: 'FormularLight';
   font-size: 14px;
   line-height: 1.21;
   font-weight: 300;
-  margin-bottom: 59px;
+  max-width: 169px;
 }
 
-.footer__policy:link {
+.footer__design-link:link {
   text-decoration: underline;
 }
 
-.footer__policy:hover {
+.footer__design-link:hover {
   text-decoration: none;
 }

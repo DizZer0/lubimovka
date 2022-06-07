@@ -1,11 +1,6 @@
 .footer__partner {
   list-style: none;
-  position: relative;
-}
-
-.footer__partner:first-child::after {
-  content: 'Генеральный партнёр';
-  position: absolute;
-  bottom: 2px;
-  left: -3px;
+  width: 182px;
+  height: 118.5px;
+  align-content: center;
 }
