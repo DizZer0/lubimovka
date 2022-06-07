@@ -1,0 +1,7 @@
+.footer__partners {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 365px;
+  gap: 60px 60px;
+  justify-content: flex-start;
+}

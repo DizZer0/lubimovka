@@ -1,0 +1,16 @@
+.footer__policy {
+  color: #242424;
+  font-family: 'FormularLight';
+  font-size: 14px;
+  line-height: 1.21;
+  font-weight: 300;
+  margin-bottom: 59px;
+}
+
+.footer__policy:link {
+  text-decoration: underline;;
+}
+
+.footer__policy:hover {
+  text-decoration: none;
+}

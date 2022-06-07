@@ -1,0 +1,6 @@
+.footer__tech-info {
+  padding-top: 32px;
+  padding-left: 27px;
+  display: flex;
+  flex-direction: column;
+}
