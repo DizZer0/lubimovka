@@ -1,0 +1,21 @@
+.description-the-play__text {
+    text-indent: 50px;
+    font-family: 'FormularLight', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+    color: #242424;
+    font-feature-settings: 'ss01' on;
+    max-width: 365px;
+    margin: 0 auto 20px auto;
+}
+
+.description-the-play__text:last-child {
+    margin: 0 auto 20px auto;
+}
+
+.description-the-play__text:first-child {
+    text-indent: 0;
+}
