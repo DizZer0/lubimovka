@@ -2,5 +2,5 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 365px;
-  justify-content: flex-end;
+  row-gap: 30px;
 }

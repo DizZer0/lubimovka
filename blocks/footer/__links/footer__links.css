@@ -1,9 +1,9 @@
 .footer__links {
-  max-height: 167px;
+  max-height: 168px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   max-width: 130px;
-  gap: 13px 65px;
-  margin-bottom: 53px;
+  gap: 13px 49px;
+  margin-bottom: 52px;
 }
