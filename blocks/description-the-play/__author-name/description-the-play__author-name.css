@@ -1,0 +1,11 @@
+.description-the-play__author-name {
+    min-width: 244px;
+    margin: 24px 0 0;
+    font-family: 'Neue Machina', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #242424;
+}
