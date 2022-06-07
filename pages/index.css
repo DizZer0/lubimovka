@@ -20,3 +20,8 @@
 @import url(../blocks/slider/__slide/slider__slide_active.css);
 @import url(../blocks/slider/__dot/slider__dot.css);
 @import url(../blocks/slider/__dot/slider__dot_active.css);
+@import url(../blocks/slider-btn/slider-btn.css);
+@import url(../blocks/slider-btn/_part/slider-btn_part_arrow.css);
+@import url(../blocks/slider-btn/_part/slider-btn_part_circle.css);
+@import url(../blocks/slider-btn/_part/slider-btn_part_svg.css);
+@import url(../blocks/slider-btn/_type/slider-btn_type_back.css);

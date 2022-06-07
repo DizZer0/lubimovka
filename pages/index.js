@@ -1,5 +1,5 @@
 const slides = Array.from(document.querySelectorAll('.slider__slide'))
-const buttons = document.querySelectorAll('.button')
+const buttons = document.querySelectorAll('.slider-btn')
 const dotsEl = document.querySelector('.slider__dots')
 const dotActiveClass = 'slider__dot_active'
 const slideActiveClass = 'slider__slide_active'
