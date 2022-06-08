@@ -9,19 +9,9 @@
 @import url(../blocks/preview-project/__btn/preview-project__btn.css);
 @import url(../blocks/preview-project/__data/preview-project__data.css);
 
-@import url(../blocks/video/video.css);
-@import url(../blocks/video/__container/video__container.css);
-@import url(../blocks/video/__element/video__element.css);
-@import url(../blocks/video/__play-button/video__play-button.css);
-@import url(../blocks/video/__play-button/_hide/video__play-button_hide.css);
-
-@import url(../blocks/gallery/gallery.css);
-@import url(../blocks/gallery/__title/gallery__title.css);
-@import url(../blocks/gallery/__image/gallery__image.css);
-@import url(../blocks/gallery/__items/gallery__items.css);
-
+@import url(../blocks/description-the-play/description-the-play.css);
 @import url(../blocks/description-the-play/__text/description-the-play__text.css);
-@import url(../blocks/description-the-play/__text-block/description-the-play__text-block.css)
+@import url(../blocks/description-the-play/__text-block/description-the-play__text-block.css);
 @import url(../blocks/description-the-play/__subtitle/description-the-play__subtitle.css);
 @import url(../blocks/description-the-play/__card/description-the-play__card.css);
 @import url(../blocks/description-the-play/__card-content/description-the-play__card-content.css);
@@ -32,3 +22,23 @@
 @import url(../blocks/description-the-play/__arrow-45/description-the-play__arrow-45.css);
 @import url(../blocks/description-the-play/__arrow-down/description-the-play__arrow-down.css);
 @import url(../blocks/description-the-play/__play/description-the-play__play.css);
+
+@import url(../blocks/working-staff/working-staff.css);
+@import url(../blocks/working-staff/__top-container/working-staff__top-container.css);
+@import url(../blocks/working-staff/__age-limit/working-staff__age-limit.css);
+@import url(../blocks/working-staff/__duration/working-staff__duration.css);
+@import url(../blocks/working-staff/__list-item/working-staff__list-item.css);
+@import url(../blocks/working-staff/__list/working-staff__list.css);
+@import url(../blocks/working-staff/__name/working-staff__name.css);
+@import url(../blocks/working-staff/__post/working-staff__post.css);
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__container/video__container.css);
+@import url(../blocks/video/__element/video__element.css);
+@import url(../blocks/video/__play-button/video__play-button.css);
+@import url(../blocks/video/__play-button/_hide/video__play-button_hide.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__title/gallery__title.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+@import url(../blocks/gallery/__items/gallery__items.css);
