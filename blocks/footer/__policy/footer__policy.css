@@ -14,3 +14,17 @@
 .footer__policy:hover {
   text-decoration: none;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__policy {
+    margin-bottom: 0;
+  }
+
+  .footer__policy:link {
+    text-decoration: none;
+  }
+
+  .footer__policy:hover {
+    text-decoration: underline;
+  }
+}

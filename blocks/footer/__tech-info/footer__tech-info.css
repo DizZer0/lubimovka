@@ -5,3 +5,16 @@
   flex-direction: column;
   border-top: 1px solid #242424;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__tech-info {
+    border-top: none;
+    max-width: 1141px;
+    margin-right: 92px;
+    margin-left: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-top: 0;
+  }
+}

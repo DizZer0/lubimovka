@@ -6,3 +6,9 @@
   font-weight: 300;
   max-width: 354px;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__authors {
+    max-width: 207px;
+  }
+}

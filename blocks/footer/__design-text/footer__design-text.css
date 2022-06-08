@@ -7,3 +7,10 @@
   max-width: 169px;
   display: inline-block;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__design-text {
+    max-width: 152px;
+    padding-top: 2px;
+  }
+}

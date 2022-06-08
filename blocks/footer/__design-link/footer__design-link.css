@@ -14,3 +14,13 @@
 .footer__design-link:hover {
   text-decoration: none;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__design-link:link {
+    text-decoration: none;
+  }
+  
+  .footer__design-link:hover {
+    text-decoration: underline;
+  }
+}

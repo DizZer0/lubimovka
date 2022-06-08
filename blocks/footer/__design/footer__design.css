@@ -1,3 +1,10 @@
 .footer__design {
   margin-bottom: 16px;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__design {
+    margin-left: auto;
+    margin-bottom: 0;
+  }
+}

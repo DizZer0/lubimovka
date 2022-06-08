@@ -5,3 +5,10 @@
   display: inline-block;
   margin-right: 4px;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__design-logo {
+    margin-right: -1px;
+    margin-bottom: 7px;
+  }
+}

@@ -13,3 +13,13 @@
 .footer__authors-link:hover {
   text-decoration: none;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__authors-link:link {
+    text-decoration: none;
+  }
+  
+  .footer__authors-link:hover {
+    text-decoration: underline;
+  }
+}
