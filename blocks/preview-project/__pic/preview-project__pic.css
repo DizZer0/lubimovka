@@ -1,5 +1,5 @@
 .preview-project__pic {
-  align-items: center;
-  max-width: 414px;
+  width: 100%;
   min-height: 450px;
+  object-fit: cover;
 }
