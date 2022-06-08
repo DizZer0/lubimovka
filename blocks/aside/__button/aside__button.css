@@ -1,0 +1,42 @@
+.aside__button {
+  border: none;
+  border-right: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  outline: none;
+  background: #ECEBE8;
+  width: 115px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: 'FormularLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #242424;
+  cursor: pointer;
+  margin: 32px 0 0 30px; 
+  transition: .3s linear;
+  position: relative;
+}
+
+.aside__button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: top, left, right, bottom, 100ms linear;
+}
+
+.aside__button:hover::before,
+.aside__button:focus::before {
+  top: calc(2px * -2);
+  left: calc(2px * -2);
+  right: calc(2px * -2);
+  bottom: calc(2px * -2);
+  border: 2px solid #242424;
+}

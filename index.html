@@ -8,9 +8,101 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Любимовка</title>
 </head>
-
-<body>
-  <header></header>
+<body class="body">
+  <!-- Header -->
+  <header class="header">
+    <!-- Navigation -->
+    <nav class="nav">
+      <!-- Nav header -->
+      <div class="nav__header">
+        <img src="./images/header/logo.svg" class="nav__logo" alt="Логотип: Любимовка" />
+        <button class="nav__projects-button">
+          Проекты
+          <img 
+            class="nav__arrow" 
+            src="./images/header/arrow-left.svg" 
+            alt="Kнопка проектов" 
+          />
+        </button>
+        <!-- Hamburger menu -->
+        <div class="nav__hamburger">
+          <div class="nav__bar nav__bar_position_top"></div>
+          <div class="nav__bar nav__bar_position_middle"></div>
+          <div class="nav__bar nav__bar_position_bottom"></div>
+        </div>
+      </div>
+      <!-- Links -->
+      <ul class="nav__list">
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">Афиша</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">Библиотека</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">Проекты</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">История</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">Блог</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">Новости</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">О фестивале</a>
+        </li>
+        <li class="nav__item nav__item_vertical-line">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">Контакты</a>
+        </li>
+        <!-- Social links -->
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">fb</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">inst</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" />
+          <a class="nav__link" href="#">ytube</a>
+        </li>
+        <li class="nav__item">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" /> 
+          <a class="nav__link" href="#">tlgrm</a>
+        </li>
+        <li class="nav__item nav__item_vertical-line">
+          <img class="nav__arrow nav__arrow_right" src="./images/header/arrow-left.svg" alt="Cтрелка" /> 
+          <a class="nav__link" href="#">vk</a>
+        </li>
+        <!-- + Button -->
+        <li class="nav__item">
+          <button class="nav__button">
+            <img src="./images/header/plus.svg" alt="Kнопка: Поддержать">
+            Поддержать
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Projects button -->
+  <aside class="aside">
+    <button class="aside__button">
+      Проекты
+      <img class="aside__arrow" src="./images/header/arrow-left.svg" alt="Kнопка проектов">
+    </button>
+  </aside>
   <main>
     <!-- секция 1-->
     <section class="preview-project">
@@ -142,6 +234,8 @@
     <section></section>
   </main>
   <footer></footer>
+  
+  <!-- Javascript -->
   <script type="module" src="./pages/index.js"></script>
 </body>
 

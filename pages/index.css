@@ -1,6 +1,38 @@
 @import url(../vendor/normalize/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+
+/* Body */
+@import url(../blocks/body.css);
+
+/* Header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_fixed/header_fixed.css);
+
+/* Navigation */
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__header/nav__header.css);
+@import url(../blocks/nav/__logo/nav__logo.css);
+@import url(../blocks/nav/__hamburger/nav__hamburger.css);
+@import url(../blocks/nav/__bar/nav__bar.css);
+@import url(../blocks/nav/__bar/_position/nav__bar_position_top.css);
+@import url(../blocks/nav/__bar/_position/nav__bar_position_middle.css);
+@import url(../blocks/nav/__bar/_position/nav__bar_position_bottom.css);
+@import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__list/_show/nav__list_show.css);
+@import url(../blocks/nav/__item/nav__item.css);
+@import url(../blocks/nav/__item/_vertical-line/nav__item_vertical-line.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__button/nav__button.css);
+@import url(../blocks/nav/__projects-button/nav__projects-button.css);
+@import url(../blocks/nav/__arrow/nav__arrow.css);
+@import url(../blocks/nav/__arrow/_right/nav__arrow_right.css);
+
+/* Aside */
+@import url(../blocks/aside/aside.css);
+@import url(../blocks/aside/__button/aside__button.css);
+@import url(../blocks/aside/__arrow/aside__arrow.css);
+
 @import url(../blocks/preview-project/preview-project.css);
 @import url(../blocks/preview-project/__title/preview-project__title.css);
 @import url(../blocks/preview-project/__subtitle/preview-project__subtitle.css);

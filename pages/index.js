@@ -1,3 +1,6 @@
+
+import { toggleNav, closeNav, toggleHeader } from '../scripts/components/nav.js';
+
 /* ---------------Запуск видео--------------- */
 const videoPlayButton = document.querySelector('.video__play-button');
 const video = document.querySelector('.video__element');
