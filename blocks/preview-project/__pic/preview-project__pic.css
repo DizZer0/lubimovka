@@ -1,0 +1,5 @@
+.preview-project__pic {
+  width: 100%;
+  min-height: 450px;
+  object-fit: cover;
+}
