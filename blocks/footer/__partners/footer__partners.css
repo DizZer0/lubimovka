@@ -1,6 +1,7 @@
 .footer__partners {
   display: flex;
   flex-wrap: wrap;
-  max-width: 365px;
-  row-gap: 30px;
+  max-width: 400px;
+  row-gap: 40px;
+  padding-left: 22px;
 }
