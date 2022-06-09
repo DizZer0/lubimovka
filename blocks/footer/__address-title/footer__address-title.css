@@ -9,7 +9,7 @@
   padding-bottom: 11px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1100px) {
   .footer__address-title {
     padding-bottom: 20px;
   }
