@@ -4,6 +4,12 @@
   padding-left: 55px;
 }
 
+@media screen and (max-width: 370px) {
+  .footer__address {
+    padding-left: 30px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .footer__address {
     grid-column-start: 2;

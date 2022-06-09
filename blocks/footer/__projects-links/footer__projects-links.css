@@ -7,6 +7,12 @@
   padding-left: 55px;
 }
 
+@media screen and (max-width: 370px) {
+  .footer__projects-links {
+    padding-left: 30px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .footer__projects-links {
     gap: 14px;
