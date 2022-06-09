@@ -2,3 +2,11 @@
   padding-bottom: 90px;
   display: grid;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__about-us {
+    grid-auto-flow: column;
+    padding-bottom: 0;
+    grid-template-columns: 155px 570px 600px
+  }
+}

@@ -7,3 +7,11 @@
   margin: 0;
   opacity: .6;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__address-subtitle {
+    font-size: 14px;
+    line-height: 1.21;
+    max-width: 50px;
+  }
+}

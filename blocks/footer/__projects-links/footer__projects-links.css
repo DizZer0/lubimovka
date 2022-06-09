@@ -6,3 +6,10 @@
   padding-bottom: 84.54px;
   padding-left: 55px;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__projects-links {
+    gap: 14px;
+    padding-bottom: 49px;
+  }
+}

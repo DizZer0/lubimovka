@@ -8,3 +8,9 @@
   margin: 0;
   padding-bottom: 11px;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__address-title {
+    padding-bottom: 20px;
+  }
+}

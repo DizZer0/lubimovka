@@ -7,3 +7,9 @@
   font-feature-settings: 'ss01' on;
   padding-left: 6px;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__partner-title {
+    display: none;
+  }
+}

@@ -8,3 +8,11 @@
   margin-bottom: 52px;
   padding-left: 55px;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer__links {
+    max-height: 170px;
+    gap: 14px 101px;
+    margin-bottom: 0;
+  }
+}
