@@ -1,6 +1,7 @@
 .slider {
     position: relative;
-    height: 1044px;
+    box-sizing: border-box;
+    min-height: 1144px;
     box-sizing: border-box;
     overflow-x: hidden;
     background: linear-gradient(to bottom, var(--main-bg-color) 70px, white 70px);
