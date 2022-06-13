@@ -12,5 +12,6 @@
   .footer__design-text {
     max-width: 152px;
     padding-top: 2px;
+    padding-left: 2px;
   }
 }

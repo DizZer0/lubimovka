@@ -2,6 +2,7 @@
   max-width: 290px;
   padding-bottom: 56px;
   padding-left: 55px;
+  font-style: normal;
 }
 
 @media screen and (max-width: 370px) {
