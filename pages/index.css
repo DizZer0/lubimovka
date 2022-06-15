@@ -42,6 +42,7 @@
 @import url(../blocks/preview-project/__data/preview-project__data.css);
 @import url(../blocks/preview-project/__pic/preview-project__pic.css);
 @import url(../blocks/preview-project/__pic-text/preview-project__pic-text.css);
+@import url(../blocks/preview-project/__data-container/preview-project__data-container.css);
 
 @import url(../blocks/description-the-play/description-the-play.css);
 @import url(../blocks/description-the-play/__text/description-the-play__text.css);

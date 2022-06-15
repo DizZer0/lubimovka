@@ -1,6 +1,4 @@
 .preview-project__btn {
-  
-  margin-left: 20.55%;
   margin-bottom: 38px;
   padding: 16px 16px 18px;
   width: 240px;
@@ -18,6 +16,21 @@
 .preview-project__btn:hover .preview-project__btn-text {
   color: white;
 }
+
 .preview-project__btn:hover .preview-project__btn-union {
   filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(50deg) brightness(105%) contrast(109%);
+}
+
+@media screen and (max-width: 415px) {
+  .preview-project__btn {
+    margin-left: 20.55%;
+    margin-bottom: 38px;
+    padding: 16px 16px 18px;
+    width: 240px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    transition: background-color .3s;
+  }
 }
