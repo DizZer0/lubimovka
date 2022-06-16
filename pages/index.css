@@ -44,6 +44,7 @@
 @import url(../blocks/preview-project/__pic-text/preview-project__pic-text.css);
 
 @import url(../blocks/description-the-play/description-the-play.css);
+@import url(../blocks/description-the-play/__rigth-column/description-the-play__rigth-column.css);
 @import url(../blocks/description-the-play/__text/description-the-play__text.css);
 @import url(../blocks/description-the-play/__text-block/description-the-play__text-block.css);
 @import url(../blocks/description-the-play/__subtitle/description-the-play__subtitle.css);

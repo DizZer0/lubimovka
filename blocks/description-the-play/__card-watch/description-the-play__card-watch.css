@@ -33,3 +33,9 @@
 .description-the-play__card-watch:hover .description-the-play__arrow-45 {
     filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(50deg) brightness(105%) contrast(109%);
 }
+
+@media screen and (min-width: 1200px) {
+    .description-the-play__card-watch {
+        padding-right: 16px;
+    }
+}
