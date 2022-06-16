@@ -6,6 +6,7 @@
   grid-template-rows: 132px 1fr 1fr;
   margin-left: 120px;
   margin-bottom: 68px;
+  background: #ECEBE8;
 }
 
 @media screen and (max-width: 1300px) {
@@ -30,8 +31,9 @@
 @media screen and (max-width: 415px) {
   .preview-project {
     display: inline-block;
-    background-color: #E5E5E5;
     padding-bottom: 100px;
     margin: 0;
+    background: #ECEBE8;
+    padding-bottom: 100px;
   }
 }
