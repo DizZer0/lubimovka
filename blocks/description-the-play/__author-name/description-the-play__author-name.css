@@ -16,3 +16,10 @@
   cursor: pointer;
   transition: .3s linear;
 }
+
+@media screen and (min-width: 1200px) {
+  .description-the-play__author-name {
+      margin-top: 17px;
+      min-width: 240px;
+  }
+}
