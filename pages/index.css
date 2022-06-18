@@ -2,7 +2,7 @@
 @import url(../vendor/fonts/fonts.css);
 
 /* Body */
-@import url(../blocks/body.css);
+@import url(../blocks/body/body.css);
 
 /* Header */
 @import url(../blocks/header/header.css);
@@ -44,6 +44,7 @@
 @import url(../blocks/preview-project/__data-container/preview-project__data-container.css);
 
 @import url(../blocks/description-the-play/description-the-play.css);
+@import url(../blocks/description-the-play/__rigth-column/description-the-play__rigth-column.css);
 @import url(../blocks/description-the-play/__text/description-the-play__text.css);
 @import url(../blocks/description-the-play/__text-block/description-the-play__text-block.css);
 @import url(../blocks/description-the-play/__subtitle/description-the-play__subtitle.css);

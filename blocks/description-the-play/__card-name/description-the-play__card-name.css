@@ -9,5 +9,16 @@
     color: #242424;
     letter-spacing: -0.01em;
     max-width: 200px;
-    padding-bottom: 117px;
+    min-height: 187px;
+}
+
+@media screen and (min-width: 1200px) {
+    .description-the-play__card-name {
+        padding-top: 24px;
+        padding-right: 31px;
+        padding-left: 24px;
+        padding-bottom: 0;
+        max-width: none;
+        width: 100%;
+    }
 }
