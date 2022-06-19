@@ -77,6 +77,7 @@
 @import url(../blocks/gallery/__title/gallery__title.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 @import url(../blocks/gallery/__items/gallery__items.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
 
 @import url(../blocks/title-h6/title-h6.css);
 /* @import url(../blocks/button/button.css); */
